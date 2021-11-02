@@ -1,0 +1,62 @@
+body {
+  /* background-color: #5D4473; */
+}
+
+h1 {
+  font-family: dederon-serif-web, serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+  margin: 1.5rem auto 0.5rem auto;
+}
+
+p {
+  font-family: dederon-serif-web, serif;
+  font-weight: normal;
+  color: white;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-style: italic;
+  margin: 0.5rem auto 0.5rem auto;
+}
+
+.video {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.pageContent {
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0,0,0,0);
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  position: fixed;
+  bottom: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
