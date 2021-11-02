@@ -6,8 +6,8 @@ h1 {
   font-family: dederon-serif-web, serif;
   font-weight: bold;
   color: white;
-  font-size: 3rem;
-  margin: 1.5rem auto 0.5rem auto;
+  font-size: 7rem;
+  margin: 2rem auto 1rem auto;
 }
 
 p {
@@ -20,12 +20,13 @@ p {
 a {
   color: white;
   text-decoration: none;
-  font-size: 5rem;
+  font-size: 12rem;
 }
 
 .subtitle {
   font-style: italic;
-  margin: 0.5rem auto 0.5rem auto;
+  margin: 1rem auto 1rem auto;
+  font-size: 2rem;
 }
 
 .video {
@@ -59,4 +60,5 @@ a {
   bottom: 5vh;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 2rem;
 }
